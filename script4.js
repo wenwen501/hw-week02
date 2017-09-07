@@ -12,8 +12,7 @@ function max(a, b) {
 }
 
 function lastChar(arr) {
-//	var arr=["a","b","c"]
-	return arr[arr.length]
+	return arr[arr.length-1]
 }
 
 function squares(a, b) {
