@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>第八堂課作業-1</title>
+	<link rel="stylesheet" href="main5.css">
+	<script src="https://code.jquery.com/jquery-1.6.4.js"></script>
+
+</head>
+
+<body>
+
+
+
+	<div class="playground">
+		<input type="text">
+		<div class="hint">This is a tooltip!</div>
+	</div>
+
+
+
+	<script>
+		$(document).ready(function() {
+			$().ready(function() {
+				$("input").mouseover(function() {
+					$(".hint").css("display", "block");
+				});
+				$("input").mouseout(function() {
+					$(".hint").css("display", "none");
+				});
+			});
+		});
+	</script>
+
+
+
+</body>
+</html>
