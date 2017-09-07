@@ -27,7 +27,8 @@
 }
 .bgTest{
   background: wheat;
-  margin-bottom:5px;
+  border:1px solid white;
+  margin-bottom:3px;
 }
 .bgTest:nth-of-type(4n+1){
   background: orange;
@@ -40,6 +41,9 @@
 .bgTest:nth-of-type(4n+3){
   background: Gold ;
   
+}
+.row p{
+  text-align:center;
 }
 
 
